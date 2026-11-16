@@ -55,7 +55,7 @@ void VistaConsola::mostrarListaProductos(const std::vector<Producto>& productos)
 std::string VistaConsola::leerTexto(const std::string& etiqueta) const {
     std::string valor;
     std::cout << etiqueta << ": ";
-    std::cin >> ws; // Limpiar espacios previos
+    std::cin >> std::ws; // <-- Corregido aquí con std::ws
     std::getline(std::cin, valor);
     return valor;
 }
