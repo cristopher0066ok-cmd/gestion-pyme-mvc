@@ -1,0 +1,6 @@
+build/
+pyme
+*.o
+*.d
+.vscode/
+.idea/
