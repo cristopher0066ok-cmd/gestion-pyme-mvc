@@ -1,0 +1,29 @@
+
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Codigo del producto: Nombre del producto: Precio de venta: Stock inicial: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

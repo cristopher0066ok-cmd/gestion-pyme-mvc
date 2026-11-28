@@ -1,0 +1,4 @@
+id;idProveedor;sentido;descripcion;monto;codigoProducto;cantidad;fecha;saldado;fechaSaldado;medio
+1;1;local_debe;Saldo factura 000451;50.00;;0;2026-11-18;0;;
+2;2;proveedor_debe;No entrego snacks;0.00;P004;6;2026-11-10;0;;
+3;1;local_debe;Pago parcial anterior;30.00;;0;2026-11-02;1;2026-11-15;efectivo

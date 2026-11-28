@@ -4,3 +4,6 @@ pyme
 *.d
 .vscode/
 .idea/
+# Datos generados al usar el programa (los de demostracion viven en datos/demo/)
+datos/*.csv
+datos/*.tmp

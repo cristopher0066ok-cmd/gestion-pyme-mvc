@@ -1,0 +1,96 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+--- LISTADO DE PRODUCTOS ---
+Cod.   Nombre                         Precio  Stock  Min  Estado    Caduca     Categoria
+------------------------------------------------------------------------
+P001   Croquetas perro adulto 1kg      $5.50     20    5  Activo    2027-03-31 seco
+P002   Croquetas gato adulto 1kg       $6.00      3    5  Activo    2027-02-28 seco
+P003   Alimento humedo gato lata       $1.50     40   10  Activo    2026-12-15 humedo (promo)
+P004   Hueso masticable                $2.50     15    5  Activo    -          golosina
+P005   Collar mediano                  $7.00      8    3  Activo    -          accesorio
+P006   Correa de nylon                 $6.50      5    5  Activo    -          accesorio
+P007   Arena sanitaria gatos 10kg      $9.00     12    4  Activo    -          higiene
+P008   Snack dental perro              $3.20     25    6  Activo    2026-12-20 golosina
+P009   Juguete pelota                  $1.50      0    3  Activo    -          accesorio
+P010   Shampoo mascotas 250ml          $4.80      6    2  Inactivo  2027-06-30 higiene
+Total: 10 producto(s).
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Codigo o nombre a buscar: 
+[PRODUCTO]
+  Codigo:           P001
+  Nombre:           Croquetas perro adulto 1kg
+  Precio:           $5.50
+  Stock / minimo:   20 / 5
+  Estado:           Activo
+  Categoria:        seco
+  Unidad de venta:  unidad
+  Precio de compra: $3.80
+  Caducidad:        2027-03-31
+  Proveedor (ID):   1
+  Variante:         pollo
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

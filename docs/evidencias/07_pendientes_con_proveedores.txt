@@ -1,0 +1,76 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  DEUDAS Y PENDIENTES CON PROVEEDORES
+========================================================================
+ 1. Registrar pendiente
+ 2. Listar pendientes abiertos
+ 3. Marcar pendiente como saldado
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Resaltar los pendientes que superan N dias. N: 
+--- PENDIENTES ABIERTOS ---
+(!) No. 1 | Proveedor 1 | Le debemos | Saldo factura 000451 | $50.00 | Desde 2026-11-18
+(!) No. 2 | Proveedor 2 | Nos debe | No entrego snacks | 6 x P004 | Desde 2026-11-10
+(!) = supera el plazo de recordatorio: conviene reclamarlo.
+Presione Enter para continuar: 
+========================================================================
+  DEUDAS Y PENDIENTES CON PROVEEDORES
+========================================================================
+ 1. Registrar pendiente
+ 2. Listar pendientes abiertos
+ 3. Marcar pendiente como saldado
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Numero del pendiente a saldar: Medio de pago si el local pago dinero (efectivo/banco; Enter si no aplica): Fecha AAAA-MM-DD (Enter = hoy): 
+[EXITO] Pendiente marcado como saldado.
+Presione Enter para continuar: 
+========================================================================
+  DEUDAS Y PENDIENTES CON PROVEEDORES
+========================================================================
+ 1. Registrar pendiente
+ 2. Listar pendientes abiertos
+ 3. Marcar pendiente como saldado
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Resaltar los pendientes que superan N dias. N: 
+--- PENDIENTES ABIERTOS ---
+(!) No. 2 | Proveedor 2 | Nos debe | No entrego snacks | 6 x P004 | Desde 2026-11-10
+(!) = supera el plazo de recordatorio: conviene reclamarlo.
+Presione Enter para continuar: 
+========================================================================
+  DEUDAS Y PENDIENTES CON PROVEEDORES
+========================================================================
+ 1. Registrar pendiente
+ 2. Listar pendientes abiertos
+ 3. Marcar pendiente como saldado
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

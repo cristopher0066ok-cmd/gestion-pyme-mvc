@@ -1,0 +1,57 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  GESTION DE CLIENTES
+========================================================================
+ 1. Registrar cliente
+ 2. Listar clientes
+ 3. Buscar clientes
+ 4. Editar contacto
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+--- CLIENTES ---
+ID 1 | Cliente Ejemplo Uno | Tel: 0990000001 | Correo: -
+ID 2 | Cliente Ejemplo Dos | Tel: - | Correo: dos@example.com
+ID 3 | Cliente Ejemplo Tres | Tel: 0990000003 | Correo: tres@example.com
+ID 4 | Consumidor final | Tel: 0000000000 | Correo: -
+ID 5 | Cliente Prueba | Tel: 0991234567 | Correo: -
+Total: 5 cliente(s).
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE CLIENTES
+========================================================================
+ 1. Registrar cliente
+ 2. Listar clientes
+ 3. Buscar clientes
+ 4. Editar contacto
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

@@ -1,0 +1,5 @@
+id;nombre;telefono;correo
+1;Cliente Ejemplo Uno;0990000001;
+2;Cliente Ejemplo Dos;;dos@example.com
+3;Cliente Ejemplo Tres;0990000003;tres@example.com
+4;Consumidor final;0000000000;

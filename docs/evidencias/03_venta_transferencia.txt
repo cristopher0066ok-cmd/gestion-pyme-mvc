@@ -1,0 +1,58 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  VENTAS
+========================================================================
+ 1. Registrar nueva venta
+ 2. Listar ventas registradas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: ID del cliente: Cliente: Cliente Ejemplo Dos
+Codigo del producto: Cantidad: Total parcial: $9.00
+Agregar otro producto? (s/n): Codigo del producto: Cantidad: Total parcial: $12.00
+Agregar otro producto? (s/n): TOTAL A PAGAR: $12.00
+Metodo de pago (1 = efectivo, 2 = transferencia): Banco: La transferencia ya fue recibida? (s/n): Confirmar la venta? (s/n): 
+[EXITO] Venta confirmada y stock descontado.
+--- VENTA No. 4 ---
+Fecha: 2026-11-28   Hora: 11:04   Cliente (ID): 2
+Cod.     Cant.    P. unit.    Subtotal
+P007         1       $9.00       $9.00
+P003         2       $1.50       $3.00
+TOTAL: $12.00
+Pago: transferencia (Pichincha, recibida)
+Presione Enter para continuar: 
+========================================================================
+  VENTAS
+========================================================================
+ 1. Registrar nueva venta
+ 2. Listar ventas registradas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

@@ -34,11 +34,17 @@ run: all
 
 pruebas: $(BIN_TEST)
 	@set -e; if [ -z "$(BIN_TEST)" ]; then echo "No hay pruebas todavia en pruebas/"; fi; \
-	for t in $(BIN_TEST); do echo "== $$t"; ./$$t; done
+	for t in $(BIN_TEST); do echo "== $$t"; ./$$t; done; echo "TODAS LAS PRUEBAS PASARON"
+
+# Carga los datos de demostracion (ficticios, sin informacion personal real) en datos/
+demo:
+	@mkdir -p datos
+	@cp datos/demo/*.csv datos/
+	@echo "Datos de demostracion copiados a datos/. Ejecute ./$(TARGET) para usarlos."
 
 clean:
 	rm -rf build $(TARGET)
 
 -include $(OBJ_LIB:.o=.d) $(OBJ_MAIN:.o=.d)
 
-.PHONY: all run pruebas clean
+.PHONY: all run pruebas demo clean

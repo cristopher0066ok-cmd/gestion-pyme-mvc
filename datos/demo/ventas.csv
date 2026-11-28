@@ -1,0 +1,4 @@
+numero;fecha;hora;idCliente;metodoPago;banco;montoRecibido;transferenciaRecibida;total
+1;2026-11-20;10:15;1;efectivo;;20.00;0;13.50
+2;2026-11-26;16:40;2;transferencia;Pichincha;16.20;1;16.20
+3;2026-11-27;11:05;3;efectivo;;15.00;0;13.40

@@ -1,0 +1,92 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  CONSULTAS Y REPORTES
+========================================================================
+ 1. Inventario disponible
+ 2. Productos con stock bajo
+ 3. Resumen de ventas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+--- INVENTARIO DISPONIBLE ---
+Cod.   Nombre                         Precio  Stock  Min  Estado    Caduca     Categoria
+------------------------------------------------------------------------
+P001   Croquetas perro adulto 1kg      $5.50     20    5  Activo    2027-03-31 seco
+P002   Croquetas gato adulto 1kg       $6.00      3    5  Activo    2027-02-28 seco
+P003   Alimento humedo gato lata       $1.50     40   10  Activo    2026-12-15 humedo (promo)
+P004   Hueso masticable                $2.50     15    5  Activo    -          golosina
+P005   Collar mediano                  $7.00      8    3  Activo    -          accesorio
+P006   Correa de nylon                 $6.50      5    5  Activo    -          accesorio
+P007   Arena sanitaria gatos 10kg      $9.00     12    4  Activo    -          higiene
+P008   Snack dental perro              $3.20     25    6  Activo    2026-12-20 golosina
+P009   Juguete pelota                  $1.50      0    3  Activo    -          accesorio
+P010   Shampoo mascotas 250ml          $4.80      6    2  Inactivo  2027-06-30 higiene
+Total: 10 producto(s).
+Presione Enter para continuar: 
+========================================================================
+  CONSULTAS Y REPORTES
+========================================================================
+ 1. Inventario disponible
+ 2. Productos con stock bajo
+ 3. Resumen de ventas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+--- PRODUCTOS CON STOCK BAJO ---
+Cod.   Nombre                         Precio  Stock  Min  Estado    Caduca     Categoria
+------------------------------------------------------------------------
+P002   Croquetas gato adulto 1kg       $6.00      3    5  Activo    2027-02-28 seco
+P006   Correa de nylon                 $6.50      5    5  Activo    -          accesorio
+P009   Juguete pelota                  $1.50      0    3  Activo    -          accesorio
+Total: 3 producto(s).
+Presione Enter para continuar: 
+========================================================================
+  CONSULTAS Y REPORTES
+========================================================================
+ 1. Inventario disponible
+ 2. Productos con stock bajo
+ 3. Resumen de ventas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+--- RESUMEN DE VENTAS ---
+Ventas registradas: 3
+Monto total:        $43.10
+Presione Enter para continuar: 
+========================================================================
+  CONSULTAS Y REPORTES
+========================================================================
+ 1. Inventario disponible
+ 2. Productos con stock bajo
+ 3. Resumen de ventas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

@@ -1,0 +1,167 @@
+classDiagram
+direction TB
+class ModeloPYME {
+  -productos: vector~Producto~
+  -clientes: vector~Cliente~
+  -proveedores: vector~Proveedor~
+  -ventas: vector~Venta~
+  -facturas: vector~Factura~
+  -pendientes: vector~Pendiente~
+  -siguienteIdCliente: int
+  -siguienteIdProveedor: int
+  -siguienteNumeroVenta: int
+  -repositorio: RepositorioArchivo
+  +registrarProducto(p)
+  +buscarProductos(texto)
+  +editarProducto(...)
+  +desactivarProducto(codigo)
+  +productosConStockBajo()
+  +registrarCliente(...) int
+  +registrarProveedor(...) int
+  +procesarVenta(...) Venta
+  +registrarFactura(...)
+  +registrarPendiente(...) int
+  +generarResumen() ResumenVentas
+  +cierreDiario(fecha) CierreDiario
+  +cierreMensual(mes) CierreMensual
+  +guardarDatos()
+  +cargarDatos() vector~string~
+}
+class Producto {
+  -codigo: string
+  -nombre: string
+  -precio: double
+  -stock: int
+  -stockMinimo: int
+  -activo: bool
+  -categoria: string
+  -unidadVenta: string
+  -precioCompra: double
+  -fechaCaducidad: string
+  -idProveedor: int
+  -variante: string
+  -precioPromocion: double
+  +vender(cantidad)
+  +actualizarPrecio(precio)
+  +ajustarStock(stock)
+  +desactivar()
+  +requiereReposicion() bool
+  +definirDatosComerciales(datos)
+  +agregarStock(cantidad)
+  +asignarPromocion(precio)
+}
+class Cliente {
+  -id: int
+  -nombre: string
+  -telefono: string
+  -correo: string
+  +actualizarContacto(telefono, correo)
+  +datosResumen() string
+}
+class Proveedor {
+  -id: int
+  -nombreComercial: string
+  -nombreVendedor: string
+  -telefono: string
+  -correo: string
+  +actualizarContacto(telefono, correo)
+  +datosResumen() string
+}
+class Venta {
+  -numero: int
+  -fecha: string
+  -hora: string
+  -idCliente: int
+  -total: double
+  -metodoPago: string
+  -banco: string
+  -montoRecibido: double
+  -vuelto: double
+  -confirmada: bool
+  +agregarDetalle(d)
+  +calcularTotal() double
+  +definirPago(...)
+  +confirmar()
+}
+class DetalleVenta {
+  -codigoProducto: string
+  -cantidad: int
+  -precioUnitario: double
+  +calcularSubtotal() double
+}
+class Factura {
+  -numero: string
+  -claveAcceso: string
+  -fecha: string
+  -idProveedor: int
+  -atendidoPor: string
+  -rutaFoto: string
+  +agregarDetalle(d)
+  +calcularTotal() double
+}
+class DetalleFactura {
+  -codigoProducto: string
+  -cantidad: int
+  -precioCompra: double
+  +calcularSubtotal() double
+}
+class Pendiente {
+  -id: int
+  -idProveedor: int
+  -sentido: SentidoPendiente
+  -monto: double
+  -codigoProducto: string
+  -cantidad: int
+  -fecha: string
+  -saldado: bool
+  +saldar(fecha, medio)
+  +superaDias(hoy, dias) bool
+}
+class RepositorioArchivo {
+  -directorio: string
+  +guardarProductos(...)
+  +cargarProductos(avisos)
+  +guardarVentas(...)
+  +cargarVentas(avisos)
+}
+class ErrorDominio {
+  +ErrorDominio(mensaje)
+}
+class VistaConsola {
+  +mostrarMenuPrincipal() int
+  +mostrarListaProductos(...)
+  +mostrarVenta(venta)
+  +leerTexto(etiqueta) string
+  +leerEntero(etiqueta) int
+  +leerDecimal(etiqueta) double
+  +solicitarConfirmacion(pregunta) bool
+}
+class ControladorPYME {
+  -modelo: ModeloPYME&
+  -vista: VistaConsola&
+  +ejecutar()
+  -gestionarProductos()
+  -gestionarClientes()
+  -gestionarProveedores()
+  -gestionarVentas()
+  -consultarReportes()
+}
+ModeloPYME "1" *-- "0..*" Producto
+ModeloPYME "1" *-- "0..*" Cliente
+ModeloPYME "1" *-- "0..*" Proveedor
+ModeloPYME "1" *-- "0..*" Venta
+ModeloPYME "1" *-- "0..*" Factura
+ModeloPYME "1" *-- "0..*" Pendiente
+Venta "1" *-- "1..*" DetalleVenta
+Factura "1" *-- "1..*" DetalleFactura
+Cliente "1" -- "0..*" Venta : idCliente
+DetalleVenta "0..*" -- "1" Producto : codigoProducto
+Pendiente "0..*" -- "1" Proveedor : idProveedor
+Factura "0..*" -- "1" Proveedor : idProveedor
+ModeloPYME ..> RepositorioArchivo : delega
+Producto ..> ErrorDominio : lanza
+Venta ..> ErrorDominio : lanza
+ControladorPYME "1" --> "1" ModeloPYME
+ControladorPYME "1" --> "1" VistaConsola
+VistaConsola ..> Producto : lee datos
+VistaConsola ..> Venta : lee datos

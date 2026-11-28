@@ -1,0 +1,46 @@
+sequenceDiagram
+autonumber
+actor Admin as Administrador
+participant V as VistaConsola
+participant C as ControladorPYME
+participant M as ModeloPYME
+participant P as Producto
+participant Ve as Venta
+Admin->>V: elige "Ventas > Registrar nueva venta"
+V-->>C: opcion (int)
+C->>V: leerEntero("ID del cliente")
+V-->>C: idCliente
+C->>M: buscarClientePorId(idCliente)
+M-->>C: Cliente
+loop por cada producto
+  C->>V: leerTexto(codigo), leerEntero(cantidad)
+  V-->>C: codigo, cantidad
+  C->>M: calcularTotalPrevio(lineas)
+  M-->>C: total parcial
+  C->>V: mostrarTotal("Total parcial", total)
+end
+C->>V: leerEntero(metodo), leerDecimal(monto) o leerTexto(banco)
+V-->>C: datos de pago
+C->>V: solicitarConfirmacion("Confirmar la venta?")
+V-->>C: true
+C->>M: procesarVenta(idCliente, lineas, fecha, hora, pago...)
+M->>M: copia de productos (para no dejar datos parciales)
+loop por cada linea
+  M->>P: vender(cantidad)
+  Note over P: valida activo, cantidad > 0 y stock suficiente
+  P-->>M: stock actualizado en la copia
+  M->>Ve: agregarDetalle(DetalleVenta con precio vigente)
+end
+M->>Ve: definirPago(metodo, banco, monto)
+M->>Ve: confirmar()
+M->>M: reemplaza los productos por la copia y guarda la venta
+M-->>C: Venta confirmada
+C->>M: guardarDatos()
+C->>V: mostrarMensajeExito + mostrarVenta(venta)
+V-->>Admin: comprobante con subtotales, total y vuelto
+alt una regla se viola (stock insuficiente, pago incompleto...)
+  P--)M: lanza ErrorDominio
+  M--)C: ErrorDominio (stock y ventas sin cambios)
+  C->>V: mostrarMensajeError(mensaje)
+  V-->>Admin: [ERROR] Stock insuficiente para realizar la venta.
+end

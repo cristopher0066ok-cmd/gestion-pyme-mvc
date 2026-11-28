@@ -1,0 +1,11 @@
+codigo;nombre;precio;stock;stockMinimo;activo;categoria;unidadVenta;precioCompra;fechaCaducidad;idProveedor;variante;precioPromocion
+P001;Croquetas perro adulto 1kg;5.50;20;5;1;seco;unidad;3.80;2027-03-31;1;pollo;0.00
+P002;Croquetas gato adulto 1kg;6.00;3;5;1;seco;unidad;4.10;2027-02-28;1;salmon;0.00
+P003;Alimento humedo gato lata;1.80;40;10;1;humedo;unidad;1.10;2026-12-15;2;atun;1.50
+P004;Hueso masticable;2.50;15;5;1;golosina;unidad;1.40;;2;carne;0.00
+P005;Collar mediano;7.00;8;3;1;accesorio;unidad;4.00;;0;azul;0.00
+P006;Correa de nylon;6.50;5;5;1;accesorio;unidad;3.50;;0;;0.00
+P007;Arena sanitaria gatos 10kg;9.00;12;4;1;higiene;bulto;6.50;;1;lavanda;0.00
+P008;Snack dental perro;3.20;25;6;1;golosina;unidad;2.00;2026-12-20;2;menta;0.00
+P009;Juguete pelota;1.50;0;3;1;accesorio;unidad;0.70;;0;;0.00
+P010;Shampoo mascotas 250ml;4.80;6;2;0;higiene;unidad;2.90;2027-06-30;1;avena;0.00

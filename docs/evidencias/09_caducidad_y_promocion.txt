@@ -1,0 +1,118 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Mostrar productos que caducan en los proximos N dias. N: 
+--- PRODUCTOS POR CADUCAR (proximos 60 dias) ---
+Cod.   Nombre                         Precio  Stock  Min  Estado    Caduca     Categoria
+------------------------------------------------------------------------
+P003   Alimento humedo gato lata       $1.50     40   10  Activo    2026-12-15 humedo (promo)
+P008   Snack dental perro              $3.20     25    6  Activo    2026-12-20 golosina
+Total: 2 producto(s).
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Codigo del producto: 
+[PRODUCTO]
+  Codigo:           P003
+  Nombre:           Alimento humedo gato lata
+  Precio:           $1.80  (promocion: $1.50)
+  Stock / minimo:   40 / 10
+  Estado:           Activo
+  Categoria:        humedo
+  Unidad de venta:  unidad
+  Precio de compra: $1.10
+  Caducidad:        2026-12-15
+  Proveedor (ID):   2
+  Variante:         atun
+Precio de promocion: 
+[ERROR] El precio de promocion no puede ser menor al precio de compra.
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Codigo del producto: 
+[PRODUCTO]
+  Codigo:           P003
+  Nombre:           Alimento humedo gato lata
+  Precio:           $1.80  (promocion: $1.50)
+  Stock / minimo:   40 / 10
+  Estado:           Activo
+  Categoria:        humedo
+  Unidad de venta:  unidad
+  Precio de compra: $1.10
+  Caducidad:        2026-12-15
+  Proveedor (ID):   2
+  Variante:         atun
+Precio de promocion: 
+[EXITO] Precio de promocion asignado.
+Presione Enter para continuar: 
+========================================================================
+  GESTION DE PRODUCTOS
+========================================================================
+ 1. Registrar producto
+ 2. Listar productos
+ 3. Buscar por codigo o nombre
+ 4. Editar producto
+ 5. Desactivar producto
+ 6. Productos por caducar
+ 7. Asignar precio de promocion
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

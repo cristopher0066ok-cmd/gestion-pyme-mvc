@@ -1,0 +1,75 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  FACTURAS DE COMPRA
+========================================================================
+ 1. Registrar factura de proveedor
+ 2. Buscar facturas
+ 3. Listar todas las facturas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Numero de factura: Clave de acceso (Enter si no tiene): Fecha AAAA-MM-DD (Enter = hoy): ID del proveedor: Nombre de quien atendio (Enter si no se sabe): Ruta del archivo de la foto (Enter si no hay): Codigo del producto: Cantidad: Precio de compra unitario: Agregar otro producto a la factura? (s/n): Confirmar la factura (aumenta el stock)? (s/n): 
+[EXITO] Factura registrada: el stock y el precio de compra fueron actualizados.
+Presione Enter para continuar: 
+========================================================================
+  FACTURAS DE COMPRA
+========================================================================
+ 1. Registrar factura de proveedor
+ 2. Buscar facturas
+ 3. Listar todas las facturas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Deje en blanco (o 0) los filtros que no necesite.
+ID del proveedor (0 = todos): Fecha desde AAAA-MM-DD: Fecha hasta AAAA-MM-DD: Numero de factura: Codigo de producto: 
+--- FACTURAS DE COMPRA ---
+--- FACTURA 001-002-000451 ---
+Fecha: 2026-11-18   Proveedor (ID): 1   Atendio: Vendedor Ejemplo A
+Clave de acceso: 1811202601179000000000120010020000004511234567811
+Foto (ruta): fotos/factura_ejemplo_1.jpg
+  P001       10 x     $3.80 =     $38.00
+  P002        5 x     $4.10 =     $20.50
+TOTAL: $58.50
+--- FACTURA F-9 ---
+Fecha: 2026-11-28   Proveedor (ID): 1   Atendio: Vend
+Clave de acceso: -
+Foto (ruta): -
+  P002       10 x     $4.00 =     $40.00
+TOTAL: $40.00
+Total: 2 factura(s).
+Presione Enter para continuar: 
+========================================================================
+  FACTURAS DE COMPRA
+========================================================================
+ 1. Registrar factura de proveedor
+ 2. Buscar facturas
+ 3. Listar todas las facturas
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!

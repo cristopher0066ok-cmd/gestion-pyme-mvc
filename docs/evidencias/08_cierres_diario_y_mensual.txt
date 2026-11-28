@@ -1,0 +1,71 @@
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  CIERRES DE CAJA
+========================================================================
+ 1. Cierre diario
+ 2. Cierre mensual
+ 3. Definir saldo base (mes anterior al primer cierre)
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Fecha AAAA-MM-DD (Enter = hoy): 
+--- CIERRE DIARIO 2026-11-26 ---
+Ventas del dia:  1
+Efectivo:        $0.00
+Transferencias:  $16.20
+   Pichincha       $16.20
+TOTAL VENDIDO:   $16.20
+Presione Enter para continuar: 
+========================================================================
+  CIERRES DE CAJA
+========================================================================
+ 1. Cierre diario
+ 2. Cierre mensual
+ 3. Definir saldo base (mes anterior al primer cierre)
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: Mes AAAA-MM (Enter = mes actual): 
+--- CIERRE MENSUAL 2026-11 ---
+                              Caja       Banco
+Saldo inicial              $450.00     $300.00
+(+) Ventas                  $26.90      $16.20
+(-) Pagos a proveedores      $30.00       $0.00
+SALDO FINAL                $446.90     $316.20
+Acumulado (caja + banco): $763.10
+Presione Enter para continuar: 
+========================================================================
+  CIERRES DE CAJA
+========================================================================
+ 1. Cierre diario
+ 2. Cierre mensual
+ 3. Definir saldo base (mes anterior al primer cierre)
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+========================================================================
+  SISTEMA DE GESTION DE PYMES - Chip Chop Pet Shop
+========================================================================
+ 1. Gestion de productos
+ 2. Gestion de clientes
+ 3. Gestion de proveedores
+ 4. Ventas
+ 5. Compras: facturas de proveedores
+ 6. Deudas y pendientes con proveedores
+ 7. Cierres de caja
+ 8. Consultas y reportes
+ 0. Volver / Salir
+------------------------------------------------------------------------
+Seleccione una opcion: 
+[EXITO] Datos guardados. Saliendo del sistema. Hasta luego!
